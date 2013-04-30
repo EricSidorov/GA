@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+  <zoom_level>6</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>690</x>
+      <y>306</y>
+      <w>114</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>/Genom/
+--
+fitness[]
+seq[]
+clamp[]
+sigma_mut[]
+--
+GetSeq()
+SetFitness()
+GetFitness()
+Crossover(partner,p1,p2)
+Mutate()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>690</x>
+      <y>648</y>
+      <w>126</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>GA
+--
+#Step()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>468</x>
+      <y>306</y>
+      <w>114</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>ScoreEvaluator
+--
+Eval(Gene)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>678</x>
+      <y>468</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Population
+--
+#SelectNtop(N)
+#ParetoDivide()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>726</x>
+      <y>384</y>
+      <w>30</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;84;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>726</x>
+      <y>486</y>
+      <w>36</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>24;162;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>342</y>
+      <w>198</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>186;318;18;318;24;18</additional_attributes>
+  </element>
+</diagram>
