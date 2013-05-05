@@ -188,7 +188,7 @@ class GA(object):
         nxt.extend(top)
         nxt.extend(chld)
         nxt.extend(mut)
-        return pop, nxt
+        return population, nxt
 
 if __name__ == '__main__':
     #test script
